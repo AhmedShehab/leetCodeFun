@@ -2,7 +2,7 @@ def lengthOfLastWord(s: str) -> int:
     # Pop the space element in the string if the flag is not raised
     # Else if the string ends or a space is found Return Count
     
-    # Declaring our variables 
+    # Declaring flag [indicates that the last word ended] and counter variables 
     flag = 0
     count = 0
     
